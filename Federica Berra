@@ -1,0 +1,32 @@
+<h1 style= "color:white; background-color:pink;margin-left:200"> Federica Berra </h1>
+<h2> Indice </h2>
+<ul>
+  <li> Chi sono </li>
+  <li> <a href= https://www.flickr.com/photos/federicaberraphotography/> Portfolio </a> </li>
+  <li> <a href= "#Curriculum"> Curriculum </a> </li>
+  <li> Contatti </li>
+</ul>
+
+<h2> Chi sono (about me) </h2>
+
+<p>
+Studente di design della comunicazione, freelance photographer. </p>
+
+<p>
+<h2> Portfolio </h2>
+   per ora non ho fatto ancora niente, ma stay tuned, arriveranno grandi cose!
+</p>
+
+<h2 id="Curriculum"> Curriculum:</h2>
+<ul>
+<li> ho fatto tre anni di scuola materna </li>
+<li> ho fatto un liceo prestigiosissimo dove ho imparato l'arte di sopravvivere per strada </li>
+<li> ho lavorato come spaccalegna durante tutte le estati della mia giovano vita </li>
+</ul>
+
+<h2> Contatti; </h2>
+<ul>
+<li> email: berra_f@yahoo.it </li>
+<li> instagram: federicaberra_ </li>
+<li> facebook: Federica Berra </li>
+</ul> 
