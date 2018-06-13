@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+<link rel="stylesheet" href="design.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+<header class="header clearfix">
+  <a href="index.html" class="header__logo"> FB </a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="fashionphotography.html">Photography</a></li>
+			<li class="header__menu__item"><a href="design.html">Design</a></li>
+			<li class="header__menu__item"><a href="index.contact.html">Contact</a></li>
+		</ul>
+	</header>
+
+  <div class="bgimg">
+    <div class="topleft">
+      <p>The works are ready,</p>
+      <p>they just need to be photographed</p>
+    </div>
+    <div class="middle">
+      <h1>WORK IN PROGRESS</h1>
+      <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+      <hr>
+    </div>
+    <div class="bottomleft">
+    </div>
+  </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+  </body>
+</html>
